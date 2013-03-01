@@ -1,0 +1,171 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+html{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#222;
+	line-height:20px;
+}
+body{
+	background:#68a5f8;
+}
+input, 
+textarea{
+	outline:none;
+}
+
+img{
+	border:none;
+}
+div.top a
+{ color: white; 
+  font-family: Verdana, sans-serif;
+  font-size: large;
+  text-decoration:none;
+
+}
+
+div#wrap{
+	width:500px;
+	height:460px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+div.idea{
+	height:36px;
+	width:478px;
+	position:absolute;
+	top:196px;
+	left:0px;
+	border:1px solid #fe8bfd;
+	background:#fe62fc;
+	color:#820101;
+	font-weight:bold;
+	padding:2px 10px 0 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+div.idea img{
+	margin:6px 10px 0 0;
+	float:left;
+}
+div.idea p{
+	margin:7px 0;
+	float:left;
+	color: #FFFFFF;
+}
+div.block{
+	height:500px;
+	width:500px;
+	position:absolute;
+	top:250px;
+	left:0px;
+    background:url('captiveportal-bg.jpg') no-repeat;
+}
+div.block2{
+	height:500px;
+	width:500px;
+	position:absolute;
+	top:250px;
+	left:0px;
+    background:url('captiveportal-bg-blank.jpg') no-repeat;
+}
+div.left{
+	height:160px;
+	width:146px;
+	position:absolute;
+	top:20px;
+}
+div.right{
+	height:120px;
+	width:354px;
+	padding:20px 0px;
+	position:absolute;
+	top:20px;
+	left:146px;
+}
+div.div-row{
+	height:31px;
+	width:354px;
+	margin-bottom:20px;
+	float:left;
+}
+div.block input{
+	float:left;
+	height:25px;
+	width:260px;
+	border:1px solid #ccc;
+	padding:4px 0 0 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	margin-left:40px;
+	font-size:16px;
+	color:#666;
+}
+div.send-row input{
+	float:left;
+	height:25px;
+	width:260px;
+	border:1px solid #fff;
+   	padding:0 0 0 0;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	margin-left:40px;
+	font-size:16px;
+	color:#fff;
+}
+div.rm-row{
+	float:left;
+	width:202px;
+	padding-left:40px;
+	height:24px;
+}
+div.rm-row input#remember{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:4px 4px 0 0;
+	border:1px solid #ccc;
+}
+div.rm-row label{
+	float:left;
+	font-size:13px;
+	width:160px;
+	margin:2px 0 0 0;
+	color:#666;
+}
+div.send-row{
+	height:24px;
+	float:right;
+    position: absolute;
+    top: 120px;
+    left: 8px;
+}
+div.send-row #login{
+	height:24px;
+	padding:0px;
+    position: absolute;
+	width:70px;
+	float:right;
+	border:none;
+	background:url('captiveportal-login-icon.png') no-repeat;
+	cursor:pointer;
+}
+div.send-row #signup{
+	height:24px;
+    position: absolute;
+    left: 165px;
+	padding:0px;
+	width:70px;
+	float:left;
+	border:none;
+	background:url('captiveportal-signup-icon.png') no-repeat;
+	cursor:pointer;
+}
+div.send-row #login:hover{
+	width:70px;
+	background:url('captiveportal-login-icon.png') no-repeat;
+}
+
